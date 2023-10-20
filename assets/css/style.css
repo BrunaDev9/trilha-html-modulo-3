@@ -1,3 +1,30 @@
+
+.logo{
+    text-align: center;
+    background-color: rgb(65, 60, 61);
+    height: auto;
+}
+.carousel {
+    width: 300px; /* Defina a largura e altura do carrossel conforme necessário */
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: none;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
 body, html {
     margin: 0;
     padding: 0;
